@@ -511,10 +511,10 @@ The system provides a practical example of how Generative AI and RAG can be inte
 
 **Mariam Abdelhady Ramadan**
 
-AI & Data Science | Backend & AI Systems
+AI & Data Science 
 
 ---
 
 ⭐ If you find this project useful, feel free to explore the repository and its implementation.
 
-````
+
