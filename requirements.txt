@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+streamlit
+pandas
+python-dotenv
+google-genai
+sentence-transformers
+chromadb
+langchain
+langchain-chroma
+rouge-score

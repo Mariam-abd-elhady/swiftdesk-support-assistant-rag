@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftDesk IT Support Assistant - Project Description</title>
+</head>
+
+<body>
+
+    <h1>SwiftDesk IT Support Assistant</h1>
+
+    <h2>RAG Capstone Project</h2>
+
+    <h2>Project Description</h2>
+
+    <p>
+        SwiftDesk is a Generative AI assistant designed to help IT support
+        agents draft concise responses to customer support tickets.
+        The system uses Retrieval-Augmented Generation (RAG) to retrieve
+        similar previous support cases and use them as contextual guidance
+        when generating a new response.
+    </p>
+
+    <h2>Technologies</h2>
+
+    <ul>
+        <li>Python</li>
+        <li>Google Gemini API</li>
+        <li>LangChain</li>
+        <li>Chroma DB</li>
+        <li>Sentence Transformers</li>
+        <li>FastAPI</li>
+        <li>Streamlit</li>
+        <li>Pandas</li>
+        <li>ROUGE-L</li>
+        <li>python-dotenv</li>
+    </ul>
+
+    <h2>RAG Workflow</h2>
+
+    <ol>
+        <li>Prepare support ticket data.</li>
+        <li>Create embeddings for previous support examples.</li>
+        <li>Store embeddings in a local Chroma database.</li>
+        <li>Retrieve similar support tickets.</li>
+        <li>Send the customer issue and retrieved context to Gemini.</li>
+        <li>Generate an AI support draft.</li>
+        <li>Review the generated response by a human agent.</li>
+    </ol>
+
+    <h2>Prompt Styles</h2>
+
+    <ul>
+        <li>Zero-shot</li>
+        <li>Few-shot</li>
+        <li>Reasoned</li>
+    </ul>
+
+    <h2>Backend</h2>
+
+    <p>
+        The backend is implemented using FastAPI and provides:
+    </p>
+
+    <ul>
+        <li><strong>GET /health</strong> - checks whether the service is running.</li>
+        <li><strong>POST /generate</strong> - generates a support response.</li>
+    </ul>
+
+    <h2>Frontend</h2>
+
+    <p>
+        The Streamlit frontend allows the user to:
+    </p>
+
+    <ul>
+        <li>Enter a customer issue.</li>
+        <li>Select a prompt style.</li>
+        <li>Enable or disable RAG.</li>
+        <li>Select the number of retrieved examples.</li>
+        <li>View the generated AI draft.</li>
+        <li>View retrieved support sources.</li>
+        <li>See the human review requirement.</li>
+    </ul>
+
+    <h2>Evaluation</h2>
+
+    <p>
+        The system was evaluated using 10 test examples and ROUGE-L.
+        The current evaluation produced an average ROUGE-L score of
+        0.1150 using the configured evaluation setup.
+    </p>
+
+    <h2>Responsible AI</h2>
+
+    <p>
+        The system follows Responsible AI principles including accuracy,
+        respectful language, privacy protection, escalation of risky
+        cases, transparency, and mandatory human review.
+    </p>
+
+    <h2>Human-in-the-Loop</h2>
+
+    <p>
+        AI-generated responses are drafts only. A human support agent
+        must review the response for clarity, relevance, politeness,
+        accuracy, and safety before sending it to the customer.
+    </p>
+
+</body>
+</html>

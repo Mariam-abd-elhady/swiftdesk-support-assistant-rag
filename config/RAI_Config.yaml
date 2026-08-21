@@ -1,0 +1,48 @@
+responsible_ai:
+
+  accuracy:
+    enabled: true
+    rule: >
+      The assistant must not invent facts, technical details,
+      account information, or troubleshooting results.
+      If information is missing, it should ask the customer
+      for the necessary details.
+
+  respectful_language:
+    enabled: true
+    rule: >
+      Responses must be polite, professional, respectful,
+      and easy for the customer to understand.
+
+  risky_case_escalation:
+    enabled: true
+    rule: >
+      Issues involving security risks, sensitive account problems,
+      data loss, suspicious activity, or cases requiring human
+      intervention must be escalated to a human support agent.
+
+  privacy:
+    enabled: true
+    rule: >
+      The assistant must not expose, request unnecessarily,
+      or generate sensitive personal information such as
+      passwords, authentication codes, or private credentials.
+
+  human_review:
+    required: true
+    rule: >
+      Every AI-generated support response must be reviewed
+      and approved by a human support agent before being sent
+      to the customer.
+
+  transparency:
+    enabled: true
+    rule: >
+      The generated response must be treated as an AI draft
+      and not as a final customer response.
+
+  limitations:
+    enabled: true
+    rule: >
+      The system may produce incomplete or inaccurate responses.
+      Human agents are responsible for verifying the final response.

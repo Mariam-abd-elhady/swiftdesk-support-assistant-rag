@@ -1,0 +1,79 @@
+{
+    "num_test_examples": 10,
+    "prompt_style": "few_shot",
+    "rag_enabled": true,
+    "num_retrieved": 3,
+    "average_rougeL": 0.115,
+    "results": [
+        {
+            "test_id": 1,
+            "customer_issue": "A billing discrepancy has been identified in the payment process for patient accounts. It may have occurred due to system integration issues. We have reviewed the transaction logs and contacted the payment processor for further clarity. An investigation is needed to resolve the issue.",
+            "reference_reply": "To resolve the billing discrepancy, an investigation is required. Please provide the necessary contact information to assist with this process.",
+            "generated_reply": "Thank you for contacting SwiftDesk Support. Based on similar previous support cases, please review the suggested troubleshooting steps and provide any relevant error message if the issue continues. Our support team can investigate further if needed.",
+            "rougeL": 0.1071
+        },
+        {
+            "test_id": 2,
+            "customer_issue": "Brand engagement is currently low.",
+            "reference_reply": "Please review your account and contact us at your earliest convenience to discuss potential solutions and improve brand engagement.",
+            "generated_reply": "Thank you for contacting SwiftDesk Support. Based on similar previous support cases, please review the suggested troubleshooting steps and provide any relevant error message if the issue continues. Our support team can investigate further if needed.",
+            "rougeL": 0.1091
+        },
+        {
+            "test_id": 3,
+            "customer_issue": "Could you provide information on integrating DataRobot with HubSpot CRM for project management? Thank you.",
+            "reference_reply": "I will provide the necessary information on integrating DataRobot with HubSpot CRM for project management via a scheduled email or call, whichever is more convenient.",
+            "generated_reply": "Thank you for contacting SwiftDesk Support. Based on similar previous support cases, please review the suggested troubleshooting steps and provide any relevant error message if the issue continues. Our support team can investigate further if needed.",
+            "rougeL": 0.0656
+        },
+        {
+            "test_id": 4,
+            "customer_issue": "I am contacting you to address an issue with my investment data that is not aligning correctly with my analytics dashboard. I suspect this could be related to software compatibility. I have already taken preliminary steps such as restarting my Mac and ensuring Malwarebytes is up-to-date, but the problem remains unresolved. I would be grateful if you could investigate this and offer a solution at the earliest convenience. Kindly inform me if there are any specific details you require from my side to resolve this. Thank you for your support and I look forward to your response.",
+            "reference_reply": "Dear <name>, we appreciate you bringing the investment data discrepancy to our attention. We apologize for the inconvenience and are here to assist you. To better understand the issue, could you please share a screenshot of the incorrect portfolio values and let us know the version of your operating system and browser? Additionally, if it is feasible, could we arrange a call at <tel_num> to delve deeper into this matter and explore potential solutions, such as software compatibility issues? Please suggest a time that works for you.",
+            "generated_reply": "Thank you for contacting SwiftDesk Support. Based on similar previous support cases, please review the suggested troubleshooting steps and provide any relevant error message if the issue continues. Our support team can investigate further if needed.",
+            "rougeL": 0.1129
+        },
+        {
+            "test_id": 5,
+            "customer_issue": "I am contacting you to request information on data analytics tools that can be integrated with QuickBooks Online for the purpose of investment optimization. Could you kindly furnish me with a list of compatible tools and their respective features? Additionally, I would be grateful if you could share pricing details and customer support offerings for these tools. Furthermore, I am interested in any available tutorials or guides that can assist me in getting started with these tools. My intention is to optimize my investments through data-driven decisions, and I am confident that the right integration with QuickBooks Online will support this endeavor. Thank you for your time and assistance.",
+            "reference_reply": "I am able to provide you with a list of data analytics tools that integrate with QuickBooks Online, along with their features, pricing, and customer support information. I will also include any available tutorials and guides to assist you in getting started. I will conduct the necessary research and respond with the detailed information you have requested.",
+            "generated_reply": "Thank you for contacting SwiftDesk Support. Based on similar previous support cases, please review the suggested troubleshooting steps and provide any relevant error message if the issue continues. Our support team can investigate further if needed.",
+            "rougeL": 0.1075
+        },
+        {
+            "test_id": 6,
+            "customer_issue": "Facing issues while writing reports on my Microsoft Surface Pro 8. The device struggles to run QuickBooks and Excel 2021 smoothly. I've already attempted a restart and reinstallation of the software, but the problem continues. I suspect there might be software conflicts or insufficient system resources. I would greatly appreciate your prompt assistance in resolving this issue. Could you please guide me on the next steps to troubleshoot and resolve the problem? I am available to provide any additional information needed.",
+            "reference_reply": "Received your email about the issues with the Microsoft Surface Pro 8 running QuickBooks and Excel 2021. To proceed with troubleshooting, could you please provide me with the device's specifications and any recent software updates? This information will help me assist you more effectively and resolve the issue as soon as possible.",
+            "generated_reply": "Thank you for contacting SwiftDesk Support. Based on similar previous support cases, please review the suggested troubleshooting steps and provide any relevant error message if the issue continues. Our support team can investigate further if needed.",
+            "rougeL": 0.1573
+        },
+        {
+            "test_id": 7,
+            "customer_issue": "There are compatibility issues with the project management tool software products.",
+            "reference_reply": "I understand you are experiencing compatibility issues with the project management tool software products. Please provide details about the issues with the products so I can assist you in troubleshooting and finding a solution to your problem.",
+            "generated_reply": "Thank you for contacting SwiftDesk Support. Based on similar previous support cases, please review the suggested troubleshooting steps and provide any relevant error message if the issue continues. Our support team can investigate further if needed.",
+            "rougeL": 0.1644
+        },
+        {
+            "test_id": 8,
+            "customer_issue": "Hello Customer Support, I am writing to request information regarding the payment options for RAID-Controller and Hub services. Could you please list the payment methods you accept such as credit cards, PayPal, or bank transfers? Are there any discounts available for extended contracts or large orders? I am also keen to know about the pricing plans and payment terms for these services. If any special offers or promotions are currently being offered, could you share that information as well? I look forward to your response and appreciate your help in understanding the payment options for these services. Best regards, [Your Name]",
+            "reference_reply": "Greetings [name], we accept different payment methods like credit cards, PayPal, and bank transfers for our RAID-Controller and Hub services. Discounts are available for long-term contracts and bulk purchases, and we currently have a promotion for new clients. For detailed pricing plans and payment terms, I would be glad to discuss this further with you. Would you be available for a call at <tel_num> to discuss your specific requirements and provide more information on our services and available promotions?",
+            "generated_reply": "Thank you for contacting SwiftDesk Support. Based on similar previous support cases, please review the suggested troubleshooting steps and provide any relevant error message if the issue continues. Our support team can investigate further if needed.",
+            "rougeL": 0.0847
+        },
+        {
+            "test_id": 9,
+            "customer_issue": "I am seeking information about the customization options available for the project management SaaS platform. Could you provide details on the types of customizations that are offered? Additionally, I would appreciate it if you could include the process for requesting customizations and the associated costs. This will help me better understand how the platform can be tailored to meet my specific needs. Thank you for your assistance. I look forward to hearing back from you soon.",
+            "reference_reply": "We offer a variety of customization options for our project management SaaS platform to meet specific needs. Customizations can include tailored workflows, custom fields, and integrations with third-party tools. To request customizations, please contact our support team with your requirements. We will assess your request and provide a quote based on the work involved. Costs vary depending on the complexity of the customization. Once we understand your needs, we can provide a solution that fits your budget. Our team will be happy to discuss your requirements in detail.",
+            "generated_reply": "Thank you for contacting SwiftDesk Support. Based on similar previous support cases, please review the suggested troubleshooting steps and provide any relevant error message if the issue continues. Our support team can investigate further if needed.",
+            "rougeL": 0.144
+        },
+        {
+            "test_id": 10,
+            "customer_issue": "I require to update my payment details for my subscription. Could you provide me with instructions on how to proceed?",
+            "reference_reply": "To update your payment details, please log in to your account on our website and navigate to the settings section, where you can manage billing information, or contact us at <tel_num> for assistance. We will guide you through the process using your account <acc_num>.",
+            "generated_reply": "Thank you for contacting SwiftDesk Support. Based on similar previous support cases, please review the suggested troubleshooting steps and provide any relevant error message if the issue continues. Our support team can investigate further if needed.",
+            "rougeL": 0.0976
+        }
+    ]
+}
