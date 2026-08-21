@@ -1,7 +1,7 @@
 ````markdown
-##🤖 SwiftDesk IT Support Assistant
+🤖 SwiftDesk IT Support Assistant
 
-## RAG Capstone Project | Generative AI + Retrieval-Augmented Generation
+RAG Capstone Project | Generative AI + Retrieval-Augmented Generation
 
 SwiftDesk is a Generative AI-powered IT support assistant designed to help support agents create concise, professional, and context-aware draft responses to customer support tickets.
 
@@ -11,7 +11,7 @@ The system uses **Retrieval-Augmented Generation (RAG)** to retrieve similar his
 
 ---
 
-## ✨ Key Features
+ ✨ Key Features
 
 - 🔎 Retrieval-Augmented Generation (RAG)
 - 🧠 Sentence Transformer embeddings
@@ -31,7 +31,7 @@ The system uses **Retrieval-Augmented Generation (RAG)** to retrieve similar his
 
 ---
 
-## 🏗️ System Architecture
+ 🏗️ System Architecture
 
 ```text
                 ┌──────────────────────┐
