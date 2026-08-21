@@ -1,17 +1,16 @@
-````markdown
-🤖 SwiftDesk IT Support Assistant
+# 🤖 SwiftDesk IT Support Assistant
 
-RAG Capstone Project | Generative AI + Retrieval-Augmented Generation
+### RAG Capstone Project | Generative AI + Retrieval-Augmented Generation
 
 SwiftDesk is a Generative AI-powered IT support assistant designed to help support agents create concise, professional, and context-aware draft responses to customer support tickets.
 
-The system uses Retrieval-Augmented Generation (RAG) to retrieve similar historical support tickets from a local Chroma vector database and use them as context when generating a response.
+The system uses **Retrieval-Augmented Generation (RAG)** to retrieve similar historical support tickets from a local **Chroma vector database** and use them as context when generating a response.
 
-> ⚠️ Human-in-the-Loop: AI-generated responses are drafts only. A human support agent must review and approve every response before it is sent to a customer.
+> ⚠️ **Human-in-the-Loop:** AI-generated responses are drafts only. A human support agent must review and approve every response before it is sent to a customer.
 
 ---
 
- ✨ Key Features
+## ✨ Key Features
 
 -  Retrieval-Augmented Generation (RAG)
 -  Sentence Transformer embeddings
@@ -24,16 +23,16 @@ The system uses Retrieval-Augmented Generation (RAG) to retrieve similar histori
 -  Reasoned prompting
 -  RAG ON / OFF
 -  Configurable number of retrieved examples
-- ROUGE-L evaluation
+-  ROUGE-L evaluation
 -  Responsible AI configuration
 -  Human-in-the-loop review
 -  MOCK_MODE for offline/classroom demonstrations
 
 ---
 
- 🏗️ System Architecture
+## 🏗️ System Architecture
 
-
+```text
                 ┌──────────────────────┐
                 │   Customer Support   │
                 │       Ticket         │
@@ -79,7 +78,7 @@ The system uses Retrieval-Augmented Generation (RAG) to retrieve similar histori
                 ┌──────────────────────┐
                 │   Final Response     │
                 └──────────────────────┘
-
+````
 
 ---
 
