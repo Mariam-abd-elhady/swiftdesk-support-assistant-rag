@@ -5,9 +5,6 @@
 SwiftDesk is a Generative AI-powered IT support assistant designed to help support agents create concise, professional, and context-aware draft responses to customer support tickets.
 
 The system uses **Retrieval-Augmented Generation (RAG)** to retrieve similar historical support tickets from a local **Chroma vector database** and use them as context when generating a response.
-
-> ⚠️ **Human-in-the-Loop:** AI-generated responses are drafts only. A human support agent must review and approve every response before it is sent to a customer.
-
 ---
 
 ## ✨ Key Features
